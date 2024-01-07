@@ -1,0 +1,101 @@
+.hero{
+    background: lightblue;
+  display: flex; 
+   align-items: center; 
+     justify-content: space-between; 
+  
+      }
+  .left-links{
+    font-size: 42px; 
+    font-weight: 600; 
+    color: orange;
+    PADDING:  5px 55px; 
+  }
+  .right-links{
+    font-size: 28px; 
+    PADDING:  5px 55px; 
+   gap: 30px;
+  }
+  a{
+    text-decoration: none; 
+   }
+  ul{
+    list-style-type: none; 
+    display: flex; 
+   }
+  .button{
+    background: blue; 
+    color: white; 
+    height: 50px; 
+    width: 110px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+    padding:8px 8px;
+    border-radius: 9px;
+    
+  }
+  button.continue {
+  background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-size: 29px;   
+     display: flex; 
+     border-radius: 8px;
+    }
+  header{
+    background:lightblue;
+   gap: 20px; 
+    display: flex; 
+     align-items: center; 
+     justify-content: center; 
+   PADDING:  5px 55px; 
+   }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  display: flex;
+    justify-content: center; 
+  }
+  img {
+    width: 300px;
+    height: 300px;
+   PADDING:  5px 55px;
+  }
+  
+  .text{
+    font-size: 32px; 
+    PADDING:  5px 55px;
+    }
+  
+  .container{
+     display: flex;
+    justify-content: center;
+  GAP: 100PX; 
+  }
+  .content{
+  background; 
+    height: 200px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background:yellow; 
+    }
+  
+  .footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 72px; 
+    background: lightblue; 
+    color: darkmagenta; 
+  }
+  .sidebar{
+    height: 200px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background: blue; 
+  }
